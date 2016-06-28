@@ -5,3 +5,5 @@
 !*.less
 !packages.list
 !.gitignore
+!dump_packages.sh
+
