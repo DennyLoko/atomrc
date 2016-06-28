@@ -15,10 +15,7 @@
         "BUCK"
       ]
     disabledPackages: [
-      "linter-php"
       "nuclide"
-      "linter-twig"
-      "language-twig"
     ]
   editor:
     invisibles: {}
@@ -30,7 +27,6 @@
     promptWhenFileHasChangedOnDisk: false
   "git-plus": {}
   "go-plus":
-    goPath: "~/go"
     runCoverageOnSave: true
   gofmt: {}
   "gometalinter-linter":
@@ -48,8 +44,6 @@
       "."
     ]
   linter: {}
-  "linter-php":
-    executablePath: "/Users/dannielmagno/php.sh"
   minimap:
     absoluteMode: true
     plugins:
