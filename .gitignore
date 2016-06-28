@@ -1,0 +1,7 @@
+*
+!*.cson
+!*.json
+!*.coffee
+!*.less
+!packages.list
+!.gitignore
