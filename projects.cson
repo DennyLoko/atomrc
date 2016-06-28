@@ -10,11 +10,6 @@ goimg:
     "/Users/dannielmagno/go/src/gitlab.com/goimg/api"
     "/Users/dannielmagno/go/src/gitlab.com/goimg/core"
   ]
-"ez/snorlax":
-  title: "ez/snorlax"
-  paths: [
-    "/Users/dannielmagno/Projects/EzDelivery/snorlax"
-  ]
 "go-dennyloko-bot":
   title: "go-dennyloko-bot"
   paths: [
@@ -24,11 +19,6 @@ goimg:
   title: "go-emojibot"
   paths: [
     "/Users/dannielmagno/go/src/github.com/DennyLoko/go-emojibot"
-  ]
-"ionic/hello":
-  title: "ionic/hello"
-  paths: [
-    "/Users/dannielmagno/Projects/hello_ionic"
   ]
 "sam/platform/gemu":
   title: "sam/platform/gemu"
@@ -75,18 +65,13 @@ goimg:
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/rps/jewelbox"
   ]
-"amztkts/kliento":
-  title: "amztkts/kliento"
-  paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/kliento"
-  ]
 "amztkts/uzanto":
   title: "amztkts/Uzanto"
   paths: [
     "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
   ]
-meliuz:
-  title: "Meliuz"
+environment:
+  title: "environment"
   paths: [
-    "/Users/dannielmagno/Projects/meliuz"
+    "/Users/dannielmagno/environment"
   ]
