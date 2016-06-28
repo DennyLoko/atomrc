@@ -1,0 +1,187 @@
+"*":
+  "autocomplete-go": {}
+  "autocomplete-php": {}
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "linter-php"
+      "nuclide"
+      "linter-twig"
+      "language-twig"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "438b1b83-b6df-9563-74d9-b4576787979f"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-plus": {}
+  "go-plus":
+    goPath: "~/go"
+    runCoverageOnSave: true
+  gofmt: {}
+  "gometalinter-linter":
+    args: [
+      "--vendor"
+      "--disable-all"
+      "--enable=vet"
+      "--enable=vetshadow"
+      "--enable=golint"
+      "--enable=ineffassign"
+      "--enable=goconst"
+      "--tests"
+      "--json"
+      "--exclude=comment"
+      "."
+    ]
+  linter: {}
+  "linter-php":
+    executablePath: "/Users/dannielmagno/php.sh"
+  minimap:
+    absoluteMode: true
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+    scrollAnimation: true
+  nuclide:
+    "nuclide-clang-atom":
+      enableDefaultFlags: false
+    "nuclide-home":
+      showHome: false
+    use:
+      "nuclide-adb-logcat": false
+      "nuclide-arcanist": false
+      "nuclide-blame-provider-hg": false
+      "nuclide-buck": false
+      "nuclide-clang-atom": false
+      "nuclide-clipboard-path": false
+      "nuclide-code-format": false
+      "nuclide-code-highlight": false
+      "nuclide-datatip": false
+      "nuclide-debugger-atom": false
+      "nuclide-debugger-hhvm": false
+      "nuclide-debugger-lldb-client": false
+      "nuclide-debugger-node": false
+      "nuclide-diagnostics-datatip-provider": false
+      "nuclide-diagnostics-store": false
+      "nuclide-diagnostics-ui": false
+      "nuclide-distraction-free-mode": false
+      "nuclide-flow": false
+      "nuclide-format-js": false
+      "nuclide-hack": false
+      "nuclide-hack-symbol-provider": false
+      "nuclide-health": false
+      "nuclide-hg-conflict-resolver": false
+      "nuclide-hg-repository": false
+      "nuclide-hhvm-toolbar": false
+      "nuclide-home": false
+      "nuclide-ios-simulator-logs": false
+      "nuclide-language-hack": false
+      "nuclide-navigation-stack": false
+      "nuclide-objc": false
+      "nuclide-ocaml": false
+      "nuclide-outline-view": false
+      "nuclide-python": false
+      "nuclide-react-native": false
+      "nuclide-react-native-inspector": false
+      "nuclide-remote-ctags": false
+      "nuclide-remote-projects": false
+      "nuclide-test-runner": false
+      "nuclide-type-coverage": false
+      "nuclide-url-hyperclick": false
+      "nuclide-working-sets": false
+  "php-cs-fixer":
+    executablePath: "/Users/dannielmagno/php-cs-fixer.phar"
+    fixers: "concat_with_spaces,align_double_arrow"
+    level: "symfony"
+    phpExecutablePath: "/usr/local/php5/bin/php"
+  "php-debug":
+    PathMaps: [
+      "/home/ematexc/public_html/pedidos_novo;/Users/dannielmagno/Projects/Ematex/pedidos_novo"
+    ]
+    ServerPort: 9000
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    core: {}
+    style: {}
+  "tester-go":
+    runCoverageOnSave: true
+  "tidy-markdown":
+    runOnSave: false
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".ansi.text":
+  editor:
+    tabLength: 4
+".css.source.twig":
+  editor:
+    tabLength: 4
+".diff.source":
+  editor:
+    tabLength: 4
+".gitignore.source":
+  editor:
+    tabLength: 4
+".hack.html.text":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    showIndentGuide: false
+    showInvisibles: false
+    tabLength: 4
+".hackfragment.source":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    showIndentGuide: false
+    showInvisibles: false
+    tabLength: 4
+".hg-commit.text":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    showIndentGuide: false
+    showInvisibles: false
+    tabLength: 4
+".html.text.twig":
+  editor:
+    tabLength: 4
+".ini.source":
+  editor:
+    tabLength: 4
+".js.source.twig":
+  editor:
+    tabLength: 4
+".json.source.twig":
+  editor:
+    tabLength: 4
+".source.twig":
+  editor:
+    tabLength: 4
+".source.twig.yaml":
+  editor:
+    tabLength: 4
+".text.twig.xml":
+  editor:
+    tabLength: 4

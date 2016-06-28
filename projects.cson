@@ -1,0 +1,92 @@
+"ambor/api":
+  title: "ambor/api"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/vinicio/ambor-api"
+    "/Users/dannielmagno/go/src/github.com/vinicio/ambor-core"
+  ]
+goimg:
+  title: "goimg"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/goimg/api"
+    "/Users/dannielmagno/go/src/gitlab.com/goimg/core"
+  ]
+"ez/snorlax":
+  title: "ez/snorlax"
+  paths: [
+    "/Users/dannielmagno/Projects/EzDelivery/snorlax"
+  ]
+"go-dennyloko-bot":
+  title: "go-dennyloko-bot"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-dennyloko-bot"
+  ]
+"go-emojibot":
+  title: "go-emojibot"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-emojibot"
+  ]
+"ionic/hello":
+  title: "ionic/hello"
+  paths: [
+    "/Users/dannielmagno/Projects/hello_ionic"
+  ]
+"sam/platform/gemu":
+  title: "sam/platform/gemu"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/gemu"
+  ]
+"sam/platform/mcb":
+  title: "sam/platform/mcb"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/mcb"
+  ]
+"sam/platform/samplatform":
+  title: "sam/platform/samplatform"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/samplatform"
+  ]
+"sam/platform/yamato":
+  title: "sam/platform/yamato"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/yamato"
+  ]
+"sam/platform/rockman":
+  title: "sam/platform/rockman"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/rockman"
+  ]
+"sam/bupper/ads-framework":
+  title: "sam/bupper/ads-framework"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-framework"
+  ]
+"sam/bupper/bupper":
+  title: "sam/bupper/bupper"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/backoffice"
+  ]
+"sam/bupper/ads-server":
+  title: "sam/bupper/ads-server"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-server"
+  ]
+"sam/rps/jewelbox":
+  title: "sam/rps/jewelbox"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/rps/jewelbox"
+  ]
+"amztkts/kliento":
+  title: "amztkts/kliento"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/kliento"
+  ]
+"amztkts/uzanto":
+  title: "amztkts/Uzanto"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
+  ]
+meliuz:
+  title: "Meliuz"
+  paths: [
+    "/Users/dannielmagno/Projects/meliuz"
+  ]
