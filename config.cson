@@ -18,6 +18,8 @@
       "nuclide"
     ]
   editor:
+    fontFamily: "inconsolata"
+    fontSize: 16
     invisibles: {}
     showInvisibles: true
     tabLength: 4
