@@ -17,6 +17,8 @@
     disabledPackages: [
       "nuclide"
     ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/dannielmagno/Projects"
   editor:
     fontFamily: "inconsolata"
     fontSize: 16
