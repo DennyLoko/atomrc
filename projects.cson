@@ -22,56 +22,90 @@ goimg:
   ]
 "sam/platform/gemu":
   title: "sam/platform/gemu"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/gemu"
   ]
 "sam/platform/mcb":
   title: "sam/platform/mcb"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/mcb"
   ]
 "sam/platform/samplatform":
   title: "sam/platform/samplatform"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/samplatform"
   ]
 "sam/platform/yamato":
   title: "sam/platform/yamato"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/yamato"
   ]
 "sam/platform/rockman":
   title: "sam/platform/rockman"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/rockman"
   ]
-"sam/bupper/ads-framework":
-  title: "sam/bupper/ads-framework"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-framework"
-  ]
 "sam/bupper/bupper":
   title: "sam/bupper/bupper"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/backoffice"
   ]
+"sam/bupper/ads-framework":
+  title: "sam/bupper/ads-framework"
+  group: "Sam Media"
+  paths: [
+    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-framework"
+  ]
 "sam/bupper/ads-server":
   title: "sam/bupper/ads-server"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-server"
   ]
 "sam/rps/jewelbox":
   title: "sam/rps/jewelbox"
+  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/rps/jewelbox"
   ]
-"amztkts/uzanto":
-  title: "amztkts/Uzanto"
+"sam/tests":
+  title: "sam/tests"
+  group: "Sam Media"
   paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
+    "/Users/dannielmagno/Projects/Sam-Media/tests"
   ]
 environment:
   title: "environment"
   paths: [
     "/Users/dannielmagno/environment"
+  ]
+"amztkts/uzanto":
+  title: "amztkts/Uzanto"
+  group: "Amuza"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
+  ]
+"amztkts/slosilo":
+  title: "amztkts/Slosilo"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Slosilo"
+  ]
+  group: "Amuza"
+"amztkts/jsonapi-errors":
+  title: "amztkts/jsonapi-errors"
+  group: "Amuza"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/AmuzaTkts/jsonapi-errors"
+  ]
+"amztkts/go-logger":
+  title: "amztkts/go-logger"
+  group: "Amuza"
+  paths: [
+    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-logger"
   ]
