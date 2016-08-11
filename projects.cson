@@ -34,22 +34,22 @@ goimg:
   ]
 "sam/platform/samplatform":
   title: "sam/platform/samplatform"
-  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/samplatform"
   ]
+  group: "Sam Media"
 "sam/platform/yamato":
   title: "sam/platform/yamato"
-  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/yamato"
   ]
+  group: "Sam Media"
 "sam/platform/rockman":
   title: "sam/platform/rockman"
-  group: "Sam Media"
   paths: [
     "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/rockman"
   ]
+  group: "Sam Media"
 "sam/bupper/bupper":
   title: "sam/bupper/bupper"
   group: "Sam Media"
@@ -80,6 +80,12 @@ goimg:
   paths: [
     "/Users/dannielmagno/Projects/Sam-Media/tests"
   ]
+"sam/pixel":
+  title: "sam/pixel"
+  group: "Sam Media"
+  paths: [
+    "/Users/dannielmagno/Projects/Sam-Media/devbox/buppertestinfra/pixel"
+  ]
 environment:
   title: "environment"
   paths: [
@@ -108,4 +114,20 @@ environment:
   group: "Amuza"
   paths: [
     "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-logger"
+  ]
+"go-pokemon-go":
+  title: "go-pokemon-go"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-pokemon-go"
+    "/Users/dannielmagno/Projects/pgo-teleport"
+  ]
+pokemongonobr:
+  title: "pokemongonobr"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/DennyLoko/pokemongonobr"
+  ]
+pgostats:
+  title: "pgostats"
+  paths: [
+    "/Users/dannielmagno/go/src/github.com/DennyLoko/pgostats"
   ]
