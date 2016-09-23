@@ -25,14 +25,14 @@
     tabLength: 4
   "exception-reporting":
     userId: "438b1b83-b6df-9563-74d9-b4576787979f"
-  "file-watcher":
-    promptWhenFileHasChangedOnDisk: false
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   "git-blame":
     ignoreWhiteSpaceDiffs: true
     showOnlyLastNames: false
   "git-plus": {}
+  "go-config":
+    gopath: "/Users/dannielmagno/go"
   "go-plus":
     runCoverageOnSave: true
   gofmt: {}
@@ -48,6 +48,7 @@
       "--tests"
       "--json"
       "--exclude=comment"
+      "--exclude=underscore"
       "."
     ]
   linter: {}
@@ -57,8 +58,9 @@
       "git-diff": true
       "git-diffDecorationsZIndex": 0
     scrollAnimation: true
+  motepair: {}
   nuclide:
-    "nuclide-clang-atom":
+    "nuclide-clang":
       enableDefaultFlags: false
     "nuclide-diagnostics-store":
       consumeLegacyLinters: false
@@ -213,6 +215,9 @@
     showIndentGuide: false
     showInvisibles: false
     tabLength: 4
+".html.php.text":
+  editor:
+    tabLength: 4
 ".html.text.twig":
   editor:
     tabLength: 4
@@ -226,6 +231,9 @@
   editor:
     tabLength: 4
 ".json.source.twig":
+  editor:
+    tabLength: 4
+".source.swift":
   editor:
     tabLength: 4
 ".source.twig":
