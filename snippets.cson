@@ -19,3 +19,17 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.text.html.php':
+  'slog':
+    'prefix': 'slog'
+    'description': 'Adiciona as funções de syslog para debug'
+    'body': 'syslog(1, \'>>>>>>>>>>>>>>>>>>>>>>>>>\');syslog(1, var_export(${1:var}, true));syslog(1, \'<<<<<<<<<<<<<<<<<<<<<<<<<\');${2:exit;}'
+  'ahmadlog':
+    'prefix': 'ahmadlog'
+    'description': 'Ahmad log style'
+    'body': 'syslog(1, \'>>>>>>>>>>>>>>>>>>>>>>>>>\' . var_export(${1:var}, true));$2'
+  'vdumpd':
+    'prefix': 'vdumpd'
+    'description': 'var_dump and exit'
+    'body': 'var_dump(${1:var});exit;$2'
