@@ -16,6 +16,7 @@
       ]
     openEmptyEditorOnStart: false
     projectHome: "/Users/dannielmagno/Projects"
+    telemetryConsent: "limited"
   editor:
     fontFamily: "inconsolata"
     fontSize: 16
