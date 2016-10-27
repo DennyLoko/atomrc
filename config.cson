@@ -35,6 +35,7 @@
   "go-config":
     gopath: "/Users/dannielmagno/go"
   "go-plus":
+    panelDisplayMode: "closed"
     runCoverageOnSave: true
   gofmt: {}
   "gometalinter-linter":
