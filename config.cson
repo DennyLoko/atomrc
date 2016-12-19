@@ -14,6 +14,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "tool-bar"
+    ]
     openEmptyEditorOnStart: false
     projectHome: "/Users/dannielmagno/Projects"
     telemetryConsent: "limited"
@@ -51,9 +54,13 @@
       "--json"
       "--exclude=comment"
       "--exclude=underscore"
+      "--exclude=unkeyed"
       "."
     ]
-  linter: {}
+  "keyboard-localization":
+    useKeyboardLayout: "pt_PT"
+  linter:
+    errorPanelHeight: 24
   minimap:
     absoluteMode: true
     plugins:
@@ -62,6 +69,8 @@
     scrollAnimation: true
   motepair: {}
   nuclide:
+    hyperclick:
+      darwinTriggerKeys: "altKey"
     "nuclide-clang":
       enableDefaultFlags: false
     "nuclide-diagnostics-store":
@@ -176,14 +185,20 @@
     core: {}
     style: {}
   "tester-go":
+    focusPanelIfTestsFail: false
     runCoverageOnSave: true
+    runTestsWithShortFlag: false
   "tidy-markdown":
     runOnSave: false
+  "tool-bar":
+    visible: false
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
 ".ansi.text":
   editor:
     tabLength: 4
@@ -194,6 +209,15 @@
   editor:
     tabLength: 4
 ".gitignore.source":
+  editor:
+    tabLength: 4
+".go.source":
+  editor:
+    tabLength: 4
+".gohtml.html.text":
+  editor:
+    tabLength: 4
+".gotemplate.source":
   editor:
     tabLength: 4
 ".hack.html.text":
