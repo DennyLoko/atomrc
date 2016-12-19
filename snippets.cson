@@ -33,3 +33,9 @@
     'prefix': 'vdumpd'
     'description': 'var_dump and exit'
     'body': 'var_dump(${1:var});exit;$2'
+
+'.source.go':
+  'vdump':
+    'prefix': 'vdump'
+    'description': 'var_dump for go'
+    'body': 'fmt.Println(fmt.Sprintf("%# v", pretty.Formatter(${1:var})))$2'
