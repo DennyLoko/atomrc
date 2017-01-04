@@ -34,10 +34,28 @@
   "git-blame":
     ignoreWhiteSpaceDiffs: true
     showOnlyLastNames: false
-  "git-plus": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "77418280-44cb-4200-97bd-7756866ac192"
   "go-config":
     gopath: "/Users/dannielmagno/go"
   "go-plus":
+    lint:
+      args: [
+        "--vendor"
+        "--disable-all"
+        "--enable=vet"
+        "--enable=vetshadow"
+        "--enable=golint"
+        "--enable=ineffassign"
+        "--enable=goconst"
+        "--tests"
+        "--json"
+        "--exclude=comment"
+        "--exclude=underscore"
+        "--exclude=unkeyed"
+        "."
+      ]
     panelDisplayMode: "closed"
     runCoverageOnSave: true
   gofmt: {}
