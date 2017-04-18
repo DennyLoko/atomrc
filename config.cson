@@ -16,13 +16,13 @@
       ]
     disabledPackages: [
       "tool-bar"
+      "environment"
+      "atom-typescript"
     ]
-    openEmptyEditorOnStart: false
     projectHome: "/Users/dannielmagno/Projects"
     telemetryConsent: "limited"
   editor:
     fontFamily: "inconsolata"
-    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -39,7 +39,10 @@
       _analyticsUserId: "77418280-44cb-4200-97bd-7756866ac192"
   "go-config":
     gopath: "/Users/dannielmagno/go"
+  "go-debug":
+    dlvPath: "/Users/dannielmagno/go/bin/dlv"
   "go-plus":
+    currentPanelHeight: "28.1624500665779vh"
     lint:
       args: [
         "--vendor"
@@ -56,6 +59,7 @@
         "--exclude=unkeyed"
         "."
       ]
+    maxPanelHeight: "20vh"
     panelDisplayMode: "closed"
     runCoverageOnSave: true
   gofmt: {}
@@ -77,8 +81,10 @@
     ]
   "keyboard-localization":
     useKeyboardLayout: "pt_PT"
-  linter:
-    errorPanelHeight: 24
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 72
+    showPanel: true
   minimap:
     absoluteMode: true
     plugins:
@@ -191,6 +197,7 @@
       "/home/ematexc/public_html/pedidos_novo;/Users/dannielmagno/Projects/Ematex/pedidos_novo"
     ]
     ServerPort: 9000
+    currentPanelMode: "bottom"
   "project-manager":
     sortBy: "group"
   "split-diff":
@@ -198,6 +205,7 @@
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
     syncHorizontalScroll: true
   "terminal-plus":
     core: {}
