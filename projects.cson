@@ -1,133 +1,174 @@
-"ambor/api":
-  title: "ambor/api"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/vinicio/ambor-api"
-    "/Users/dannielmagno/go/src/github.com/vinicio/ambor-core"
-  ]
-goimg:
-  title: "goimg"
-  paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/goimg/api"
-    "/Users/dannielmagno/go/src/gitlab.com/goimg/core"
-  ]
-"go-dennyloko-bot":
-  title: "go-dennyloko-bot"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-dennyloko-bot"
-  ]
-"go-emojibot":
-  title: "go-emojibot"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-emojibot"
-  ]
-"sam/platform/gemu":
-  title: "sam/platform/gemu"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/gemu"
-  ]
-"sam/platform/mcb":
-  title: "sam/platform/mcb"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/mcb"
-  ]
-"sam/platform/samplatform":
-  title: "sam/platform/samplatform"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/samplatform"
-  ]
-  group: "Sam Media"
-"sam/platform/yamato":
-  title: "sam/platform/yamato"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/yamato"
-  ]
-  group: "Sam Media"
-"sam/platform/rockman":
-  title: "sam/platform/rockman"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/rockman"
-  ]
-  group: "Sam Media"
-"sam/bupper/bupper":
-  title: "sam/bupper/bupper"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/backoffice"
-  ]
-"sam/bupper/ads-framework":
-  title: "sam/bupper/ads-framework"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-framework"
-  ]
-"sam/bupper/ads-server":
-  title: "sam/bupper/ads-server"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/buppertestinfra/ads-server"
-  ]
-"sam/rps/jewelbox":
-  title: "sam/rps/jewelbox"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/sam-media/devbox/rps/jewelbox"
-  ]
-"sam/tests":
-  title: "sam/tests"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/Sam-Media/tests"
-  ]
-"sam/pixel":
-  title: "sam/pixel"
-  group: "Sam Media"
-  paths: [
-    "/Users/dannielmagno/Projects/Sam-Media/devbox/buppertestinfra/pixel"
-  ]
-environment:
-  title: "environment"
-  paths: [
-    "/Users/dannielmagno/environment"
-  ]
-"amztkts/uzanto":
-  title: "amztkts/Uzanto"
-  group: "Amuza"
-  paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
-  ]
-"amztkts/slosilo":
-  title: "amztkts/Slosilo"
-  paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Slosilo"
-  ]
-  group: "Amuza"
-"amztkts/jsonapi-errors":
-  title: "amztkts/jsonapi-errors"
-  group: "Amuza"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/AmuzaTkts/jsonapi-errors"
-  ]
-"amztkts/go-logger":
-  title: "amztkts/go-logger"
-  group: "Amuza"
-  paths: [
-    "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-logger"
-  ]
-"go-pokemon-go":
-  title: "go-pokemon-go"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/DennyLoko/go-pokemon-go"
-    "/Users/dannielmagno/Projects/pgo-teleport"
-  ]
-pokemongonobr:
-  title: "pokemongonobr"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/DennyLoko/pokemongonobr"
-  ]
-pgostats:
-  title: "pgostats"
-  paths: [
-    "/Users/dannielmagno/go/src/github.com/DennyLoko/pgostats"
-  ]
+[
+  {
+    title: "go-dennyloko-bot"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/go-dennyloko-bot"
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/go-dennyloko-bot_v1"
+    ]
+  }
+  {
+    title: "go-emojibot"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/go-emojibot"
+    ]
+  }
+  {
+    title: "environment"
+    paths: [
+      "/Users/dannielmagno/environment"
+    ]
+  }
+  {
+    title: "amztkts/Uzanto"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Uzanto"
+    ]
+  }
+  {
+    title: "amztkts/Slosilo"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Slosilo"
+    ]
+  }
+  {
+    title: "amztkts/jsonapi-errors"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/AmuzaTkts/jsonapi-errors"
+    ]
+  }
+  {
+    title: "amztkts/go-logger"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-logger"
+    ]
+  }
+  {
+    title: "go-pokemon-go"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/go-pokemon-go"
+      "/Users/dannielmagno/Projects/pgo-teleport"
+    ]
+  }
+  {
+    title: "pokemongonobr"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/pokemongonobr"
+    ]
+  }
+  {
+    title: "pgostats"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/pgostats"
+    ]
+  }
+  {
+    title: "amztkts/Altiro"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Altiro"
+    ]
+  }
+  {
+    title: "amztkts/go-config"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-config"
+    ]
+  }
+  {
+    title: "amztkts/go-libs"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/go-libs"
+    ]
+  }
+  {
+    title: "amztkts/Infra"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Infra"
+    ]
+  }
+  {
+    title: "Zeus/Zeus-Server"
+    group: "Zeus"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/ZeusProject/zeus-server"
+    ]
+  }
+  {
+    title: "cfdnsmanager"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/cfdnsmanager"
+    ]
+  }
+  {
+    title: "go-resty/resty"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/go-resty/resty"
+    ]
+  }
+  {
+    title: "amztkts/dev-watch"
+    group: "Amuza"
+    paths: [
+      "/Users/dannielmagno/go/src/gitlab.com/AmuzaTkts/Dockerfiles/dev-watch"
+    ]
+  }
+  {
+    title: "sentiment"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/sentiment"
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/sentiment2"
+    ]
+  }
+  {
+    title: "wifi-punch-through"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/greenboxal/wifi-punch-through"
+    ]
+  }
+  {
+    title: "loltroll"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/loltroll"
+    ]
+  }
+  {
+    title: "pogo-vision-ui"
+    group: "Pogo Vision"
+    paths: [
+      "/Users/dannielmagno/Projects/pogo-vision-ui"
+      "/Users/dannielmagno/Projects/react-hello-world"
+    ]
+  }
+  {
+    title: "Rocket Map"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/Projects/RocketMap"
+    ]
+  }
+  {
+    title: "node-PalletTown"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/Desktop/pokemon/node-PalletTown"
+    ]
+  }
+  {
+    title: "go-telegram-spammer"
+    group: "oss"
+    paths: [
+      "/Users/dannielmagno/go/src/github.com/DennyLoko/go-telegram-spammer"
+    ]
+  }
+]
